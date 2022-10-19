@@ -10,18 +10,18 @@
     <form name="" action="message.html" method="get">    
         <h1>FORMS</h1>
         <label for="name">Name</label>
-        <input type="text" id="name" placeholder="name">
+        <input type="text" id="name" placeholder="name" name="Name">
         <br>
         <br>
         <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="email" required>
+        <input type="email" id="email" placeholder="email" name="email" required>
         <br>
         <br>
         <label for="password">Password</label>
-        <input type="password" id="password" placeholder="password">
+        <input type="password" id="password" placeholder="password" name="password">
         <br>
         <br>
-        <label for="language">Language</label>
+        <label for="language" name="language">Language</label>
         <br>
         <br>
         <label for="react">React</label>
@@ -38,32 +38,34 @@
         <br>
         <br>
         <label for="MERN">MERN</label>
-        <input type="checkbox" id=" MERN" value="MRN" required>
+        <input type="checkbox" id=" MERN" value="MRN" name="course"required>
         <br>
         <label for="MEAN">MEAN</label>
-        <input type="checkbox" id="MEAN" value="MEN">
+        <input type="checkbox" id="MEAN" value="MEN" name="course">
         <br>
         <label for="MEVN">MEVN</label>
         <input type="checkbox" id="MEVN" value="MVN">
         <br>
         <br>
-        <label for="fields select">Field:</label>
+        <label for="fields select" value="field">Field:</label>
         <br>
         <select name="field" id="field-select">
-        <option value="option">Front End</option>
-        <option value="option">Back End</option>
-        <option value="option">Full Stack</option>
+        <option value="frontend">Front End</option>
+        <option value="backend">Back End</option>
+        <option value="fullstack">Full Stack</option>
         </select>
         <br>
         <br>
-        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <textarea name="description" id="description" cols="30" rows="5"></textarea>
         <br>
         <br>
         <label for="ph number">Phone Number</label>
-        <input type="digits" id="ph number">
+        <input type="digits" id="ph number" name="phone">
         <input type="submit">
     </form>
 
 
 </body>
 </html>
+    <h1>TABLES</h1>
+    <a href="table.html">Click Here</a>
